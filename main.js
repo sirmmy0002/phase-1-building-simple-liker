@@ -1,8 +1,8 @@
-
 // Defining text characters for the empty and full hearts for you to use later.
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
+// Your JavaScript code goes here!
 const modal = document.querySelector('#modal');
 const heart = document.querySelectorAll('.like-glyph')
 
@@ -39,6 +39,8 @@ function heartClicked(heartParent) {
     heartParent.innerHTML = EMPTY_HEART;
   }
 }
+
+
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
